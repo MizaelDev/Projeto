@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+
+*{
+    
+     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+
+body
+{
+    font-family: 'Roboto', sans-serif;
+  background-color: #f2eee3;
+}
+nav{
+    background: rgb(10, 1, 112);
+    height: 80px; 
+    width: 100%;  
+}
+
+label.logo{
+    color: whitesmoke;
+    font-size: 35px; 
+    line-height: 80px; 
+    padding: 0 100px; 
+    font-weight: bold; 
+}
+
+nav ul{
+    float:right;
+    margin-right: 50px; 
+}
+
+nav ul li{
+    display:inline-block; 
+    line-height: 80px; 
+    margin: 0 5px; 
+}
+
+nav ul li a{
+    color: whitesmoke;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 4px; 
+    text-transform: uppercase; 
+}
+
+a.active,a:hover{
+    background: rgb(79, 144, 228);
+    transition: .5s; 
+}
+
+a
+{
+    text-decoration: none; 
+}
+
+
+
+.produto {
+    width: 280px;
+    position: relative;
+    box-shadow: 0 2px 7px #dfdfdf; 
+    margin: 50px auto;
+    background: #f5f2f2;
+    display: inline-block;
+    margin-left: 7%;
+
+}
+
+.badge {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    background: red;
+    color: #fff;
+    padding: 3px 10px;
+}
+
+.produto-tb {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    padding: 50px;
+    background: #ffffff;
+}
+
+.produto-tb img {
+    max-width: 100%; 
+    max-height: 100%;
+}
+
+.detalhes{
+    padding: 30px;
+}
+
+.categoria {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: rgb(160, 126, 126);
+    margin-bottom: 18px;
+}
+
+.detalhes h4 a {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 18px;
+    text-transform: uppercase;
+    color: #363636;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.detalhes h4 a:hover {
+    color: rgb(196, 188, 188);
+}
+
+.detalhes p {
+    font-size: 15px;
+    line-height: 22px; 
+    margin-bottom: 18px;
+    color: #999;
+}
+
+.bottom-detalhes {
+    overflow: hidden;
+    border-top: 1px solid rgb(97, 86, 86);
+    padding-top: 20px; 
+}
+
+.bottom-detalhes div {
+    float: left;
+    width: 50%;
+}
+
+.product-preco {
+    font-size: 18px;
+    color: red;
+    font-weight: 600;
+}
+
+.product-preco small  {
+    font-size: 80%;
+    font-weight: 400;
+    text-decoration: line-through; 
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.produto-links {
+    text-align: right; 
+}
+
+.produto-links a {
+    display: inline-block;
+    margin-left: 5px;
+    color: #666363;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.produto-links a:hover {
+    color: rgb(125, 122, 122);
+}
